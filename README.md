@@ -3,5 +3,7 @@
 Source: A. Oliver et al (2020):
 Automatic quantification of cardiomyocyte dimensions and Connexin 43 lateralization in fluorescence images
 
-MARTA_win.exe is the program to run on Windows OS (tested in Windows 10 64-bit succesfully)
-MARTA_lin.exe is the program to run on Linux OS (tested in Ubuntu 64-bit)
+* MARTA_win.exe is the program to run on Windows OS (tested in Windows 10 64-bit succesfully) -That was the same as MARTA_v3.exe in video demonstration -
+* MARTA_lin.exe is the program to run on Linux OS (tested in Ubuntu 64-bit)
+
+Click here https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf - automatic![Click here](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf) to see video demonstration you can take a look at
