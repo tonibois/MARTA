@@ -1,4 +1,4 @@
-# MARTA (Myocite Automatic Retrieval and Tissue Analysis)
+# MARTA (Myocyte Automatic Retrieval and Tissue Analysis)
 
 A. Oliver et al (2020). Automatic quantification of cardiomyocyte dimensions and Connexin 43 lateralization in fluorescence images
 
