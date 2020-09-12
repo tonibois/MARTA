@@ -9,6 +9,6 @@ A. Oliver et al (2020). Automatic quantification of cardiomyocyte dimensions and
 
 Download & Run from command line (Linux):
 
-git clone https://github.com/tonibois/MARTA
-chmod 777 -R MARTA_linux
-./MARTA_linux
+1. git clone https://github.com/tonibois/MARTA
+2. chmod 777 -R MARTA_linux
+3. ./MARTA_linux
