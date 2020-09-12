@@ -6,3 +6,9 @@ A. Oliver et al (2020). Automatic quantification of cardiomyocyte dimensions and
 * MARTA_lin.exe is the program to run on Linux OS (tested in Ubuntu 64-bit)
 
 [Click here](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf) to see video demonstration.
+
+Download & Run from command line (Linux):
+
+git clone https://github.com/tonibois/MARTA
+chmod 777 -R MARTA_linux
+./MARTA_linux
