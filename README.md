@@ -1,6 +1,9 @@
 # MARTA (Myocyte Automatic Retrieval and Tissue Analyzer)
 
+This program is fully described in the next publication:
+
 A. Oliver et al (2020). [Automatic quantification of cardiomyocyte dimensions and Connexin 43 lateralization in fluorescence images](https://www.mdpi.com/2218-273X/10/9/1334)
+
 
 * MARTA_win.exe is the program to run on Windows OS (tested in Windows 10 64-bit succesfully). Same as MARTA_v3.exe in [video demonstration](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf).
 * MARTA_linux is the program to run on Linux OS (tested in Ubuntu 64-bit)
