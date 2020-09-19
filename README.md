@@ -9,9 +9,7 @@ DOI: https://doi.org/10.3390/biom10091334
 ### File Description:
 
 * MARTA_win.exe is the program to run on Windows OS (tested in Windows 10 64-bit succesfully). Same as MARTA_v3.exe in [video demonstration](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf).
-* MARTA_linux is the program to run on Linux OS (tested in Ubuntu 64-bit)
-[Click here](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf) to see video demonstration.
-How to download & run from command line (Linux):
+* MARTA_linux is the program to run on Linux OS (tested in Ubuntu 64-bit). How to download & run from command line (Linux):
 
 1. git clone https://github.com/tonibois/MARTA
 2. chmod 777 -R MARTA_linux
