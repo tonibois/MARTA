@@ -21,5 +21,6 @@ DOI: https://doi.org/10.3390/biom10091334
 * e.tif a MERGED image of two channels (F-Actin and Cx43)
 * Parameters_e_default.png is a snapchot of the default parameters set to process image "e" when running main program MARTA_win.exe
 ![A test image](Parameters_e_default.png)
+
 * Parameters_a.png is a snapchot of the parameter configuration that must be set to process "a" for automated mode processing (a_c1.tif, a_c2.tif and a_c3.tif).
 ![A test image2](Parameters_a.png)
