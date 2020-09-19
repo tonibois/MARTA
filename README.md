@@ -2,7 +2,11 @@
 
 This program is fully described in the next publication:
 
-[Automatic quantification of cardiomyocyte dimensions and Connexin 43 lateralization in fluorescence images](https://www.mdpi.com/2218-273X/10/9/1334)
+Oliver-Gelabert, A.; García-Mendívil, L.; Vallejo-Gil, J.M.; Fresneda-Roldán, P.C.; Andelová, K.; Fañanás-Mastral, J.; Vázquez-Sancho, M.; Matamala-Adell, M.; Sorribas-Berjón, F.; Ballester-Cuenca, C.; Tribulova, N.; Ordovás, L.; Raúl Diez, E.; Pueyo, E. Automatic Quantification of Cardiomyocyte Dimensions and Connexin 43 Lateralization in Fluorescence Images. *Biomolecules* **2020**, *10*, 1334.
+
+DOI: https://doi.org/10.3390/biom10091334
+
+//[Automatic quantification of cardiomyocyte dimensions and Connexin 43 lateralization in fluorescence images](https://www.mdpi.com/2218-273X/10/9/1334)
 
 
 * MARTA_win.exe is the program to run on Windows OS (tested in Windows 10 64-bit succesfully). Same as MARTA_v3.exe in [video demonstration](https://www.youtube.com/playlist?list=PLxAhyI5uMABUJHDdJXx7utR3qqDxmYjzf).
