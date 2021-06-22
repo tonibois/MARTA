@@ -13,8 +13,6 @@ from tkinter.ttk import Progressbar
 from tkinter import ttk
 from tkinter import filedialog
 from tkinter import simpledialog
-import urllib.request as urllib2
-import ntplib
 
 class ToolTip(object):
 
