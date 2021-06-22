@@ -26,5 +26,5 @@ DOI: https://doi.org/10.3390/biom10091334
 
 ### To run from source 
 
-* It's mandatory to have installed python 3 and required python libraries (i.e. tkinter, OpenCV2, matplotlib, numpy, ntplib, warnings...)
+* It's mandatory to have installed python 3 and required python libraries (i.e. tkinter, OpenCV2, matplotlib, numpy, warnings...)
 * From CLI on the path where the source file MARTA_source.py have been installed, just type "python MARTA_source.py"
