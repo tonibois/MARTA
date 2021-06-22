@@ -24,3 +24,7 @@ DOI: https://doi.org/10.3390/biom10091334
 
 * Parameters_a.png is a snapchot of the parameter configuration that must be set to process "a" for automated mode processing (a_c1.tif, a_c2.tif and a_c3.tif)
 
+### To run from source 
+
+* It's mandatory to have installed python 3 and required python libraries (i.e. tkinter, OpenCV2, matplotlib, numpy, ntplib, warnings...)
+* From CLI on the path where the source file MARTA_source.py have been installed, just type "python MARTA_source.py"
