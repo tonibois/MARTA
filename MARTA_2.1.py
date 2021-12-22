@@ -798,7 +798,7 @@ class MyWindow:
         # Maximum width of CM
         sf_wmax=int(self.t26.get()) #50     # micrometers
         # Minimum aspect ratio (Lenght/Width) of CM
-        sf_rmin=int(self.t27.get()) #1    
+        sf_rmin=float(self.t27.get()) #1    
         # Padding applied to cell enclosing rectangles as function of dilate parameters
         scpad=int(self.t270.get())
         pad= scpad*dkrgrowc2*iters_grow_c2
