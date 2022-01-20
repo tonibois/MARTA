@@ -1152,6 +1152,8 @@ class MyWindow:
         Wboxv=[]
         Aboxv=[]
         CXLATV=[]
+        contoursfilt=[]		  #ch20220120
+        boxparts=[]			  #ch20220120        
         cardiomdet=0
         yminc=0
         ymaxc=np.shape(img_contours)[0]
@@ -1319,7 +1321,14 @@ class MyWindow:
                     r3fig=cv2.drawContours(imgblack,[rec4],0,(255,255,255),-1)
                     int3=cv2.bitwise_and(r3fig[yminb:ymaxb,xminb:xmaxb],imgcxb2[yminb:ymaxb,xminb:xmaxb])
                     nwp3=np.count_nonzero(int3)
-                    
+
+        # ch20220120
+                    contoursfilt.append(contours2[j])
+                    boxparts.append(rec1)
+                    boxparts.append(rec2)
+                    boxparts.append(rec3)
+                    boxparts.append(rec4)
+
         # Compute the proportions of c2 relative to each compartment          
                     p0=nwp0/(nwp0+nwp1+nwp2+nwp3+0.001)*100
                     p1=nwp1/(nwp0+nwp1+nwp2+nwp3+0.001)*100
@@ -1364,9 +1373,9 @@ class MyWindow:
                         if(ymaxw>np.shape(origpic)[0]):
                             ymaxw=np.shape(origpic)[0]
                     
-                        cv2.drawContours(origpic,[box],0,(0,255,255),contwidth)       			#ch20220120
+                        cv2.drawContours(origpic,[box],0,(0,255,255),contwidth)       		#ch20220120
                         cv2.drawContours(origpic,[contours2[j]],0,(255,0,255),contwidth) 		#ch20220120
-                        #cv2.drawContours(img3comb,[box],0,(255,0,0),contwidth)       			#ch20220120
+                        #cv2.drawContours(img3comb,[box],0,(255,0,0),contwidth)       		#ch20220120
             		#cv2.drawContours(img3comb,[contours2[j]],0,(255,128,0),contwidth) 		#ch20220120  
             		
                         # Definition of mini scale bars for individual retrieval
@@ -1663,6 +1672,12 @@ class MyWindow:
         winim.configure(image=imgphoto)
         winim.image = imgphoto
         winim.grid(column=12, row=8, rowspan=20, columnspan=20)
+        
+
+        for j in range(0,len(contoursfilt),1):
+        	cv2.drawContours(com3,[contoursfilt[j]],0,(255,0,0),contwidth) 	#ch20220120                    
+        for j in range(0,len(boxparts),1):
+        	cv2.drawContours(com3,[boxparts[j]],0,(255,0,255),contwidth)      	#ch20220120
         
         # make a reduction of output file  
         if(redfactor == 1) & (plotanot == 'y') :
