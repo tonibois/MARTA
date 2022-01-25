@@ -1598,10 +1598,10 @@ class MyWindow:
         if plotcombin == 'y' :
             if(scalebars=='y'):
                 cv2.drawContours(img3comb,[scbar],-1,(255,255,255),-1)
-            for j in range(0,len(contours2)-1,1):  
-            	cv2.drawContours(img3comb,[contours2[j]],0,(128,128,0),contwidth) #ch20220120                    
-            for j in range(0,len(boxc)-1,1):
-                cv2.drawContours(img3comb,[boxc[j]],0,(255,0,0),contwidth)       #ch20220120
+            for j in range(0,len(contoursfilt)-1,1):  
+            	cv2.drawContours(img3comb,[contoursfilt[j]],0,(128,128,0),contwidth) #ch20220120                    
+            for j in range(0,len(boxparts)-1,1):
+                cv2.drawContours(img3comb,[boxparts[j]],0,(255,0,0),contwidth)       #ch20220120
             cv2.imwrite("out_quantif_"+dirstr+"/"+idim+"_"+distr+"_merged_binarized"+outf, img3comb[yminc:ymaxc,xminc:xmaxc])
         if plotchbin  == 'y' :
             img=cv2.imread("blacksub"+outf) 
