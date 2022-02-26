@@ -8,8 +8,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import warnings
 import PIL
-import pkg_resources.py2_warn
-#import pkg_resources.py2_warn
 from datetime import datetime, timezone
 from tkinter import *
 from tkinter.ttk import Progressbar
